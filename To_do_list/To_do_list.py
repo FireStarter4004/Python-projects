@@ -8,6 +8,7 @@ import json as js
 
 
 
+
 root=tk.Tk()
 root.geometry("400x600")
 root.configure(bg="purple")
@@ -21,7 +22,7 @@ def myGUI ():
     taskslabel=tk.Label(root, text="daily tasks", bg="purple", fg="black", font=("Arial", 18,"underline"))
     taskslabel.pack(pady=5)
     taskentry=tk.Entry(root, width=30, font=("Arial", 14))
-    taskentry.pack(side="bottom", pady=15)
+    taskentry.pack(side="bottom", pady=30)
     taskentry.insert(0, "enter a new task  :")
 
 
